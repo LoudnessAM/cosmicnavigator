@@ -6,6 +6,7 @@ CORS(app)
 
 @app.route('/api/hellocosmos')
 def hello_cosmos():
+    # Testing endpoint to check if frontend & backend are connected.
     return jsonify({"message": "Hello, Cosmos!"})
     
 if __name__ == '__main__':
